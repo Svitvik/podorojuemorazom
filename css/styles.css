@@ -1,0 +1,73 @@
+
+:root {
+  --primary-text-color: rgb(3, 0, 0);
+  --title-text-color: rgb(0, 0, 0);
+  --accent-color: 2196f3;
+}
+/* основной текст  212121
+текст строк 757575
+шапка сайта белый ECECEC
+акцент 2196F3
+*/
+.body {
+  background-color: black;
+  color: var(--primary-text-color);
+}
+/*heder section*/
+.heder{
+  background: #cbffe9;
+}
+.list {
+  list-style: none;
+}
+.contact {
+  color: rgb(101, 111, 131);
+}
+.logo-naime{
+  color: rgb(0, 0, 170);
+  text-align: center ;
+}
+.site-nav,
+.btn  {
+  display: flex;
+  margin-left: 5px;
+  color: rgb(64, 113, 218);
+}
+.site-nav,
+.link:hover,
+.site-nav .link:focus {
+  color: rgb(74, 211, 253);
+  text-align: center;
+}
+/* site nav */
+
+.section-titie {
+  color: rgb(39, 11, 61);
+}
+.naime {
+  color: var(--primary-text-color);
+}
+/*button*/
+
+.botton,
+.primary {
+  background-color: var(--accent-color);
+  color: var(--primary-text-color);
+}
+
+.botton,
+.secodary {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+/*main section*/
+.main {
+  background: #c6dfff;
+}
+/*footer section*/
+.footer
+{
+  background: #cbffe9;
+  text-align: center;
+}
+
