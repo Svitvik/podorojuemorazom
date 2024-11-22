@@ -1,0 +1,93 @@
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  #cbffe9;
+    display: flex;
+    }
+
+/* Боковая панель */
+.sidebar {
+    width: 210px;
+    height: 100vh;
+    background-color: #542cb3;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    overflow-y: auto;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #17ddeb;
+}
+
+/* Основной контент */
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+    width: 100%;
+    }
+
+/* Разделы */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+/* Карточки для направлений */
+.card {
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+    text-align: center;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+    box-sizing: border-box;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+.list {
+      list-style-type: none; 
+  }
+  
+.title {
+    text-align: center;
+}
