@@ -9,7 +9,7 @@ body {
 
 /* Боковая панель */
 .sidebar {
-    width: 210px;
+    width: 180px;
     height: 100vh;
     background-color: #542cb3;
     color: white;
@@ -64,7 +64,7 @@ section h2 {
 /* Карточки для направлений */
 .card {
     display: inline-block;
-    width: 45%;
+    width: 40%;
     margin: 10px;
     text-align: center;
     background-color: #f8f9fa;
@@ -75,7 +75,7 @@ section h2 {
 }
 
 .card img {
-    height: 250px;
+    height: 210px;
     object-fit: cover;
     border-radius: 5px 5px 0 0;
     box-sizing: border-box;
