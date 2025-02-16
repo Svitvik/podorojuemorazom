@@ -9,7 +9,7 @@ body {
 
 /* Боковая панель */
 .sidebar {
-    width: 180px;
+    width: 140px;
     height: 100vh;
     background-color: #542cb3;
     color: white;
@@ -23,8 +23,8 @@ body {
 
 .sidebar h2 {
     text-align: center;
-    margin-bottom: 20px;
-    font-size: 22px;
+    margin-bottom: 10px;
+    font-size: 12px;
 }
 
 .sidebar a {
@@ -75,7 +75,7 @@ section h2 {
 }
 
 .card img {
-    height: 210px;
+    height: 160px;
     object-fit: cover;
     border-radius: 5px 5px 0 0;
     box-sizing: border-box;
