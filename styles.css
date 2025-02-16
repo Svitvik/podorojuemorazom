@@ -9,22 +9,22 @@ body {
 
 /* Боковая панель */
 .sidebar {
-    width: 210px;
+    width: 190px;
     height: 100vh;
     background-color: #542cb3;
     color: white;
     position: fixed;
     top: 0;
     left: 0;
-    padding: 20px;
+    padding: 10px;
     overflow-y: auto;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 }
 
 .sidebar h2 {
     text-align: center;
-    margin-bottom: 20px;
-    font-size: 22px;
+    margin-bottom: 10px;
+    font-size: 12px;
 }
 
 .sidebar a {
@@ -43,15 +43,15 @@ body {
 
 /* Основной контент */
 .main-content {
-    margin-left: 250px;
-    padding: 20px;
+    margin-left: 210px;
+    padding: 10px;
     width: 100%;
     }
 
 /* Разделы */
 section {
-    margin: 20px 0;
-    padding: 20px;
+    margin: 10px 0;
+    padding: 10px;
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -75,7 +75,7 @@ section h2 {
 }
 
 .card img {
-    height: 250px;
+    height: 210px;
     object-fit: cover;
     border-radius: 5px 5px 0 0;
     box-sizing: border-box;
